@@ -3,6 +3,8 @@
  Given 
      
      Company Database Schema
+     
+   ![](https://github.com/ahmdeltoky03/SQL_Server/blob/main/day_2/Summary/CompanySchema.png)
  <br>
  Requried
  
