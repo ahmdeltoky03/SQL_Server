@@ -1,6 +1,10 @@
+---------------------------------------
+--Summary of video_Day_2
+---------------------------------------
 --DDL
 --Date Definition Language
 /*create table*/
+
 create table empp
 (
 SSN int primary key,
@@ -40,7 +44,7 @@ alter table empp drop column age
 /*drop table(Delete table)*/
 /*drop table empp*/
 
-------------------------------------------------------
+-------------------------------------------------------------------
 --DML
 --Data Manipulation Language
 --insert-delete-update-merge
@@ -89,7 +93,8 @@ set address='Tanta' where SSN=8
 /*delete from empp*/
 delete from empp where SSN=6
 
-------------------------------------------------------
+-------------------------------------------------------------------
+
 --DQL
 --Data Query Language
 
@@ -135,4 +140,5 @@ select * from empp where Address='Cairo' and Address='Tanta'
 select * from empp where SSN>=1 and SSN<=4
 select * from empp where SSN between 1 and 4
 
-------------------------------------------------------
+-------------------------------------------------------------------
+
