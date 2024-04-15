@@ -17,7 +17,7 @@ select PNAME,PLOCATION,DNUM from PROJECT
 --Display each employee full name and his annual commission in an ANNUAL COMM column (alias).
 /*update salary then select*/
 update EMPLOYE
-set SALARY+= SALARY*.1
+set SALARY = SALARY*.1 + SALARY
 
 select (FNAME+' '+MINIT+' '+LNAME),(SALARY),SALARY as alias from EMPLOYE
 
