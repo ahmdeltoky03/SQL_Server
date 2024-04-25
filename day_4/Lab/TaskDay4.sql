@@ -99,7 +99,7 @@ select distinct(fname+' '+lname) as full_name
 from Employee e,Dependent d
 where e.SSN=d.ESSN 
 
---10-Try to update all salaries of employees who work in Project ‘Al Rabwah’ by 30% 
+--10-Try to update all salaries of employees who work in Project ï¿½Al Rabwahï¿½ by 30% 
 
 
 select salary
@@ -124,7 +124,17 @@ WHERE employee.SSN in (select Essn
 insert into Departments(Dname,Dnum,Mgrssn,MgrstartDate)
 values ('DEPT IT',100,112233,'1-11-2006')
 
---2-
+--2-Do what is required if you know that : Mrs.Noha Mohamed(SSN=968574)  moved to be the manager of the new department (id = 100),
+-- and they give you(your SSN =102672) her position (Dept. 20 manager) 
+--First try to update her record in the department table
+--Update your record to be department 20 manager.
+--Update the data of employee number=102660 to be in your teamwork (he will be supervised by you) (your SSN =102672)
+
+
+First try to update her record in the department table
+Update your record to be department 20 manager.
+Update the data of employee number=102660 to be in your teamwork (he will be supervised by you) (your SSN =102672)
+
 insert into Employee(SSN)
 values (102672)
 
